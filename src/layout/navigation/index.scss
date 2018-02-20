@@ -1,0 +1,25 @@
+@import '../../../assets/_variables';
+
+$nav-line-height: $header-logo-size;
+
+.navigation {
+  float: right;
+  line-height: $nav-line-height;
+
+  & ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+
+    & > li {
+      display: inline-block;
+      padding: 0 $standard-gap;
+      line-height: $nav-line-height;
+    }
+  }
+
+  & a {
+    text-decoration: none;
+    color: #333;
+  }
+}

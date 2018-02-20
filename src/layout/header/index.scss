@@ -1,0 +1,28 @@
+@import '../../../assets/_variables';
+
+.header {
+  border-bottom: 1px solid #333;
+  padding-bottom: $standard-gap;
+}
+
+.header-text {
+  display: inline-block;
+  margin-left: $standard-gap;
+  vertical-align: middle;
+
+  & .name {
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+}
+
+.logo {
+  display: inline-block;
+  width: $header-logo-size;
+  height: $header-logo-size;
+  border: 5px dotted #ff0;
+  border-radius: 50%;
+  box-sizing: border-box;
+  background-color: #f50;
+  vertical-align: middle;
+}
